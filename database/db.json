@@ -1,0 +1,13 @@
+{
+    "Sach": [
+        {
+            "id": "1",
+            "ma_sach_ph": "ccc",
+            "tieu_de_ph": "ccc",
+            "tac_gia": "(string)",
+            "nam_xuat_ban": "(string)",
+            "so_trang": 222,
+            "the_loai": "(string)"
+        }
+    ]
+}
