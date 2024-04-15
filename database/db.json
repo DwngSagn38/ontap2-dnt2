@@ -2,8 +2,26 @@
     "Sach": [
         {
             "id": "1",
-            "ma_sach_ph": "ccc",
-            "tieu_de_ph": "ccc",
+            "ma_sach": "ccc",
+            "tieu_de": "ccc",
+            "tac_gia": "(string)",
+            "nam_xuat_ban": "(string)",
+            "so_trang": 222,
+            "the_loai": "(string)"
+        },
+        {
+            "id": "2",
+            "ma_sach": "bbb",
+            "tieu_de": "Nô",
+            "tac_gia": "(string)",
+            "nam_xuat_ban": "(string)",
+            "so_trang": 222,
+            "the_loai": "(string)"
+        },
+        {
+            "id": "3",
+            "ma_sach": "aaa",
+            "tieu_de": "Nôc cccc",
             "tac_gia": "(string)",
             "nam_xuat_ban": "(string)",
             "so_trang": 222,

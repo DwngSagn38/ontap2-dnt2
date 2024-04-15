@@ -1,17 +1,17 @@
 import { Pressable, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Banner from '../Components/Banner'
-import Danhsach from '../Components/Danhsach'
+import Banner from '../component/Banner'
+import DachSach from '../component/DachSach'
 
 const Home = ({navigation}) => {
   return (
     <View>
       <Banner/>
-      <Pressable onPress={()=>navigation.navigate('Cart')}
-       style={{backgroundColor: 'green', padding: 20, borderWidth: 1}}>
+      <Pressable onPress={()=> {navigation.navigate("Cart")}}
+      style={{padding: 20, backgroundColor: 'red', alignItems: 'center', margin: 20}} >
         <Text>Giỏ hàng của tôi</Text>
       </Pressable>
-      <Danhsach/>
+      <DachSach/>
     </View>
   )
 }

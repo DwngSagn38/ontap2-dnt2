@@ -1,10 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import listSach from "../reducers/reducers";
-import listCart from "../reducers/reducerCart";
+import Sachs from "./reducer";
+import listCart from "./reducerCart";
 
 const store = configureStore({
     reducer : {
-        sach : listSach,
+        sach : Sachs,
         cart : listCart
     }
 });
